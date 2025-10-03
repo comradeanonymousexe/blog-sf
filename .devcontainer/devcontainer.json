@@ -1,0 +1,8 @@
+{
+  "name": "Hugo Dev (hugomods)",
+  "image": "docker.io/hugomods/hugo:exts",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [1313],
+  "remoteUser": "root",
+  "postCreateCommand": "hugo version"
+}
